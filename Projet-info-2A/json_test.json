@@ -1,0 +1,48 @@
+{
+    "sexe": {
+        "type": "M|F",
+        "remplissage": 100,
+        "proba d'apparition": ["same"]
+    },
+    "age": {
+        "type": "uniform|borne1|borne2",
+        "remplissage": 100,
+        "proba d'apparition": [1,0,100]
+    },
+    "prenom": {
+        "type": "Adrien|Abdoul|Laurène|Isaac|Nathan",
+        "remplissage": 88.4,
+        "proba d'apparition": ["same"]
+
+    },
+    "nom": {
+        "type": "Cortada|Toure|Villacampa|Sandja",
+        "remplissage": 85,
+        "proba d'apparition": [20,20,20,20]
+    },
+
+    "taille": {
+        "type": "normal|mean|variance",
+        "remplissage": 100,
+        "proba d'apparition": [1,177,5]
+    },
+
+    "nb_chevaux": {
+        "type": "uniform|borne1|borne2",
+        "remplissage": 100,
+        "proba d'apparition": [1,80,200]
+    },
+
+    "marque": {
+        "type": "mercedes|tesla|citroein|peugeot|audi|ferrari|ford",
+        "remplissage": 86,
+        "proba d'apparition": ["same"]
+    }
+    ,
+
+    "vitesse_max": {
+        "type": "exponential|lambda",
+        "remplissage": 86,
+        "proba d'apparition": [1,15]
+    }
+}
